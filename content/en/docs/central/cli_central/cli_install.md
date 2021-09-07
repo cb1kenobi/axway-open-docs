@@ -70,7 +70,7 @@ The following table describes the operating system supported configurations that
 All the development versions of Axway Central CLI can be found at [NPM install of Axway Central CLI](https://www.npmjs.com/package/@axway/axway-central-cli). To install a specific development version, run the following command:
 
 ```
-axway pm install @axway/amplify-central-cli@2.0.0
+axway pm install @axway/axway-central-cli@2.0.0
 ```
 
 ### Additional installation steps on Windows
