@@ -162,7 +162,7 @@ Watch the animation to learn how to do this in Amplify Central UI.
 After you create a service account your must authorize it with Amplify platform, and log in to Axway CLI using the following command:
 
 ```
-axway auth login --client-id DOSA_105cf15d051c432c8cd2e1313f54c2da --secret-file ~/test/private_key.pem
+axway auth login --client-id DOSA_xxxxxxxxxxxxxxxxxxxxxxxx --secret-file /path/to/private_key.pem
 ```
 
 Expected response:
@@ -171,7 +171,7 @@ Expected response:
 AXWAY CLI, version 3.0.0
 Copyright (c) 2018-2021, Axway, Inc. All Rights Reserved.
 
-You are logged in as DOSA_5ed74d68defxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx604.
+You are logged in as DOSA_xxxxxxxxxxxxxxxxxxxxxxxx.
 This account has been set as the default.
 ```
 
@@ -180,7 +180,7 @@ This account has been set as the default.
 To set the service account client identifier for future operations:
 
 ```
-axway central config set --client-id DOSA_105cf15d051c432c8cd2e1313f54c2da
+axway central config set --client-id DOSA_xxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 To view the saved configuration, run:
@@ -192,7 +192,7 @@ axway central config list
 Expected response:
 
 ```
-{ 'client-id': 'DOSA_105cf15d051c432c8cd2e1313f54c2da' }
+{ 'client-id': 'DOSA_xxxxxxxxxxxxxxxxxxxxxxxx' }
 ```
 
 ## Review
