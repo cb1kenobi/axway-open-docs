@@ -159,7 +159,7 @@ Watch the animation to learn how to do this in Amplify Central UI.
 
 #### Authorize the service account with Amplify platform
 
-After you create a service account your must authorize it with Amplify platform, and log in to Axway CLI using the following command:
+After you create a service account you must authorize it with Amplify platform, and log into Axway CLI using the following command:
 
 ```
 axway auth login --client-id DOSA_xxxxxxxxxxxxxxxxxxxxxxxx --secret-file /path/to/private_key.pem
